@@ -27,7 +27,31 @@ This project is a small Node.js + Express application that consumes a public RES
   - Network failures
   - Invalid responses
   - Timeouts
-  - Missing or malformed fields
+  - Missing or malformed field
+
+ 
+## Setup Instructions
+
+1️# Clone the repository
+git clone <your-repo-url>
+
+cd global-trend-api-assignment
+
+2️# Install dependencies
+
+npm install
+
+3️# Start development server
+
+npm run dev
+
+4️# Start production server
+
+npm start
+
+Server runs at:
+
+http://localhost:3000
 
 
 ## Project Structure
@@ -41,4 +65,9 @@ src/
   utils/errorHandler.js         # 404 + global error handling
 cache/
   posts.json (generated at runtime)
+
+
+
+
+
  
